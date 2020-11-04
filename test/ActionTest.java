@@ -15,8 +15,7 @@ public class ActionTest {
     Action a = new Action();
 
     @Test
-    public void testMoveSquare(){
-        p2.setSquare(new Square(2));
+
         p3.setSquare(new Square(2));
         assertFalse(a.moveSquare(p1, p2));
         assertTrue(a.moveSquare(p2, p3));
