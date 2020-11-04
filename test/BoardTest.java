@@ -1,7 +1,3 @@
-import static org.junit.Assert.*;
-
-import Board.Board;
-import org.junit.Test;
 
 public class BoardTest {
     Board b = new Board();

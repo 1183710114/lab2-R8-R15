@@ -2,9 +2,6 @@ import Action.Action;
 import Board.Position;
 import Square.Square;
 
-import org.junit.Assert.*;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class ActionTest {

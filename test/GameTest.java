@@ -34,13 +34,4 @@ public class GameTest {
         assertEquals(g.getBoard().getPosition(3,1).getSquare().getNum(), 4);
     }
 
-    @Test
-    public void TestCheckGameOver(){
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++){
-                g.getBoard().getPosition(i, j).setSquare(new Square(2));
-            }
-        }
-        assertTrue(g.checkAroundSquareSame(g.getBoard().getPosition(1,3)));
-    }
-}
+  
