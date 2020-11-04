@@ -1,6 +1,5 @@
 
-public class BoardTest {
-    Board b = new Board();
+
 
     @Test
     public void TestGetPosition(){

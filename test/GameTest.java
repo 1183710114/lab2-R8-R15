@@ -4,8 +4,6 @@ import Game.Game;
 import Square.Square;
 import org.junit.Test;
 
-public class GameTest {
-    Game g = new Game();
 
     @Test
     public void testMovequare(){
