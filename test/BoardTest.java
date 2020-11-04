@@ -1,5 +1,9 @@
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> C4
 
     @Test
     public void TestGetPosition(){
